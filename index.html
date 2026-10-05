@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A private dream-couple archive">
+  <title>OUR LITTLE UNIVERSE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#top">✦ OUR LITTLE UNIVERSE</a>
+    <nav>
+      <a href="#story">Story</a>
+      <a href="#characters">Characters</a>
+      <a href="#commission">Commission</a>
+      <a href="#archive">Archive</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" id="eyebrow">DREAM COUPLE ARCHIVE</p>
+        <h1 id="title">이 꿈을 보관할 수 있을까요?</h1>
+        <p class="subtitle" id="tagline">Starbound Vow.<br>Across every lifetime.</p>
+
+        <div class="hero-meta">
+          <div>
+            <span>START</span>
+            <strong id="start">2026.07.30</strong>
+          </div>
+          <div>
+            <span>STATUS</span>
+            <strong>FOREVER IN PROGRESS</strong>
+          </div>
+        </div>
+
+        <div class="hero-links">
+          <a id="musicLink" href="#" target="_blank" rel="noopener">♫ Music</a>
+          <a id="mainLink" href="#" target="_blank" rel="noopener">↗ Link</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="커플 대표 이미지">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="portrait-placeholder">
+          <span>✦</span>
+          <small>YOUR<br>COUPLE<br>IMAGE</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="story">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / STORY</p>
+          <h2>우리의 세계</h2>
+        </div>
+        <p class="section-note">Notion에서 기록하고,<br>여기에는 가장 예쁜 모습으로 남겨두기.</p>
+      </div>
+      <div class="story-card">
+        <p id="worldDescription">지구가 붕괴한 이후 우주에는 인공 별, ‘피로스 별’이 생겼다. 새로운 세계에서 두 사람이 만났고, 서로의 이야기를 오래 보관하기로 했다.</p>
+      </div>
+    </section>
+
+    <section class="section" id="characters">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">02 / CHARACTERS</p>
+          <h2>Two souls, one orbit</h2>
+        </div>
+      </div>
+      <div class="character-grid" id="characterGrid"></div>
+    </section>
+
+    <section class="section" id="commission">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">03 / COMMISSION</p>
+          <h2>그림으로 남겨둔 순간들</h2>
+        </div>
+        <span class="count" id="commissionCount">0 ARCHIVES</span>
+      </div>
+      <div class="commission-grid" id="commissionGrid"></div>
+    </section>
+
+    <section class="section archive-section" id="archive">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">04 / ARCHIVE</p>
+          <h2>Memory Timeline</h2>
+        </div>
+      </div>
+      <div class="timeline" id="timeline"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>✦</span>
+    <p>Some dreams deserve a place to stay.</p>
+    <span>✦</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

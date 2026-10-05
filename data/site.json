@@ -1,0 +1,56 @@
+{
+  "world": {
+    "browserTitle": "이 꿈을 보관할 수 있을까요? — Dream Couple Archive",
+    "eyebrow": "DREAM COUPLE ARCHIVE",
+    "title": "이 꿈을 보관할 수 있을까요?",
+    "tagline": "Starbound Vow.\nAcross every lifetime.",
+    "start": "2026-07-30",
+    "description": "지구가 붕괴한 이후 우주에는 인공 별, ‘피로스 별’이 생겼다. 새로운 세계에서 두 사람이 만났고, 서로의 이야기를 오래 보관하기로 했다.",
+    "music": "https://youtu.be/0m_MJWwREJY?si=h52ZifRoxaUEg1jp",
+    "link": "https://x.com/YOUWER3MYSAVIOR?s=20"
+  },
+  "characters": [
+    {
+      "name": "심성훈",
+      "role": "Character / 01",
+      "image": ""
+    },
+    {
+      "name": "지하연",
+      "role": "Character / 02",
+      "image": ""
+    }
+  ],
+  "commissions": [
+    {
+      "name": "착세 님",
+      "note": "Commission archive",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "포네네 님",
+      "note": "Commission archive",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "도시 님",
+      "note": "Commission archive",
+      "image": "",
+      "link": ""
+    }
+  ],
+  "memories": [
+    {
+      "date": "2026-07-30",
+      "title": "세계의 시작",
+      "description": "이 세계와 두 사람의 이야기를 처음 기록한 날."
+    },
+    {
+      "date": "2026-08-01",
+      "title": "첫 번째 기록",
+      "description": "Notion에 남겨둔 이야기가 이곳의 아카이브가 되기 시작했다."
+    }
+  ]
+}
