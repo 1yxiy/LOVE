@@ -1,6 +1,6 @@
 async function loadSite() {
   try {
-    const response = await fetch("data/site.json");
+    const response = await fetch("data/notion.json");
     const site = await response.json();
     renderSite(site);
   } catch (error) {
@@ -75,3 +75,10 @@ function escapeHtml(value) {
 function escapeAttr(value) { return escapeHtml(value); }
 
 loadSite();
+
+fetch("data/notion.json")
+  .then(r => r.json())
+  .then(rows => {
+    console.log(rows); // 우선 데이터가 잘 들어오는지 확인
+  });
+
