@@ -1,8 +1,8 @@
 name: Sync Notion
 on:
   schedule:
-    - cron: "0 */6 * * *"   # 6시간마다 실행 (UTC 기준)
-  workflow_dispatch:         # 수동 실행 버튼
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,11 +18,12 @@ jobs:
       - run: node scripts/fetch-notion.js
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          NOTION_CHARACTERS_DB: ${{ secrets.NOTION_CHARACTERS_DB }}
+          NOTION_COMMISSIONS_DB: ${{ secrets.NOTION_COMMISSIONS_DB }}
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/notion.json
+          git add data/
           git diff --staged --quiet || git commit -m "Update Notion data"
           git push
