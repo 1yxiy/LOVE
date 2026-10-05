@@ -53,12 +53,12 @@ function getDate(page, name) {
   return d.slice(0, 10).replaceAll("-", ".");
 }
 
-// 사진 칸 → 사진을 GitHub(data/images)에 저장
+// 사진 칸 → 없으면 커버 사진 → GitHub(data/images)에 저장
 async function saveImage(page, name) {
-  const p = page.properties[name];
-  const f = p?.files?.[0];
-  if (!f) return "";
-  const url = f.file?.url || f.external?.url;
+  const f = page.properties[name]?.files?.[0];
+  const url =
+    f?.file?.url || f?.external?.url ||
+    page.cover?.file?.url || page.cover?.external?.url;
   if (!url) return "";
   try {
     const res = await fetch(url);
@@ -74,6 +74,8 @@ async function saveImage(page, name) {
     return "";
   }
 }
+
+
 
 async function main() {
   const world = fs.existsSync("data/world.json")
