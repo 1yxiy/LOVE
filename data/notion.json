@@ -1,0 +1,45 @@
+{
+  "world": {
+    "browserTitle": "OUR LITTLE UNIVERSE",
+    "eyebrow": "DREAM COUPLE ARCHIVE",
+    "title": "이 꿈을 보관할 수 있을까요?",
+    "tagline": "여기에 Tagline 내용",
+    "start": "여기에 Start 내용",
+    "description": "여기에 세계관 개요 내용",
+    "music": "여기에 음악 링크 (https://...)",
+    "link": "여기에 LINK 주소 (https://...)"
+  },
+  "characters": [
+    {
+      "name": "심성훈",
+      "role": "스타 헌터 반장",
+      "image": ""
+    },
+    {
+      "name": "지하연",
+      "role": "문 체이서 반장",
+      "image": ""
+    }
+  ],
+  "commissions": [
+    {
+      "name": "착세 님",
+      "note": "2026.09.28",
+      "image": "data/images/3db4d421799380ee992fdb513249ffa8.png",
+      "link": ""
+    },
+    {
+      "name": "포네네 님",
+      "note": "2026.10.01",
+      "image": "data/images/3ed4d4217993808985bfede1e8a962a9.png",
+      "link": ""
+    },
+    {
+      "name": "도시 님",
+      "note": "2026.10.03",
+      "image": "data/images/3ee4d421799380f48cd0f235a8b490f6.jpg",
+      "link": ""
+    }
+  ],
+  "memories": []
+}
