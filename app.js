@@ -82,3 +82,4 @@ fetch("data/notion.json")
     console.log(rows); // 우선 데이터가 잘 들어오는지 확인
   });
 
+
